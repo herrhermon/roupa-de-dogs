@@ -1,0 +1,34 @@
+var pets = [
+  {
+    raca: "Buldogue",
+    especie: "cachorro",
+    dono: "Henrique",
+    idade: 8,
+  },
+  {
+    raca: "Pastor Alemão",
+    especie: "cachorro",
+    dono: "Paula",
+    idade: 4,
+  },
+  {
+    raca: "Sphynx",
+    especie: "gato",
+    dono: "José",
+    idade: 1,
+  },
+];
+
+function adicionarPet(raca,especie,dono,idade){
+    pets.push({
+        "raca": raca,
+        "especie": especie,
+        "dono": dono,
+        "idade": idade,
+         }    
+     )
+     return pets
+ }
+ 
+ console.log(adicionarPet("Vira Lata","cachorro","Andre",3))
+
